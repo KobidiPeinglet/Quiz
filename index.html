@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .Theheader h1{
+    font-size: 50px;
+    }
+   .Theheader{
+      background-color: #37394d;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .container{
+      background-color: #42445c;
+    }
+    .col-demo{
+      background-color: #37394d;
+      border: 2px solid dimgray;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      scroll-margin-left: 1px;
+      scroll-margin-right: 1px;
+    }
+    body{
+      background-color: #42445c;
+    }
+    .bitcoin{
+      color: yellow;
+    }
+    .dogecoin{
+      color: red;
+    }
+    .ethereum{
+      color: #656dd6;
+    }
+  </style>
+</head>
+<body>
+  <div>
+  <div class="Theheader">
+    <h1>Cryptocurrencies</h1>
+    <h3>Buy crypto from this website</h3>
+  </div>
+
+  <div class="container">
+  <div class="bitcoin">
+    <h3>Bitcoin</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Bitcoin.png" class="img-fluid mb-2">
+        <button class="btn btn-warning">Buy Bitcoin</button>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9 col-demo">
+        <h2>Description:</h2>
+          <p>Bitcoin is a form of digital currency that uses blockchain technology to support transactions between users on a decentralized network. New Bitcoins are created as part of the mining process, as a reward to people whose computer systems help validate transactions.</p>
+          <h2>Value:</h2>
+          <h4>₱5,827,605.14</h4>
+      </div>
+    </div>
+  </div>
+
+   <div class="dogecoin">
+    <h3>Dogecoin</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Dogecoin_Logo.png" class="img-fluid mb-2">
+        <button class="btn btn-danger">Buy Dogecoin</button>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9 col-demo">
+        <h2>Description:</h2>
+        <p>At its heart, Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes.</p>
+        <h2>Value:</h2>
+        <h4>₱25.75</h4>
+      </div>
+    </div>
+  </div>
+
+   <div class="ethereum">
+    <h3>Ethereum</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Ethereum.png" class="img-fluid mb-2">
+        <button class="btn btn-primary">Buy Ethereum</button>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9 col-demo">
+          <h2>Description:</h2>
+          <p>Ethereum is the second-biggest cryptocurrency by market cap after Bitcoin. It is also a decentralized computing platform that can run a wide variety of applications — including the entire universe of DeFi.</p>
+          <h2>Value:</h2>
+          <h4>₱200,670.60</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
